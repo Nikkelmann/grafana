@@ -276,7 +276,7 @@ export const LdapSettingsPage = () => {
       The LDAP integration in Grafana allows your Grafana users to log in with their LDAP credentials. Find out more in
       our{' '}
       <TextLink
-        href="https://grafana.com/docs/grafana/latest/setup-grafana/configure-security/configure-authentication/ldap/"
+        href="https://grafana.com/docs/grafana/latest/setup-grafana/configure-access/configure-authentication/ldap/"
         external
       >
         <Trans i18nKey="ldap-settings-page.documentation">documentation</Trans>

@@ -74,7 +74,7 @@ export const AuthDrawerUnconnected = ({
       Configure auth settings. Find out more in our{' '}
       <TextLink
         external={true}
-        href="https://grafana.com/docs/grafana/next/setup-grafana/configure-security/configure-authentication/#settings"
+        href="https://grafana.com/docs/grafana/next/setup-grafana/configure-access/configure-authentication/#settings"
       >
         documentation
       </TextLink>

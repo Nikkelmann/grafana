@@ -96,7 +96,7 @@ func (s *listFormatValidation) Run(ctx context.Context, log logging.Logger, _ *a
 func (s *listFormatValidation) generateLinks(provider string) []advisor.CheckErrorLink {
 	return []advisor.CheckErrorLink{
 		{
-			Url:     fmt.Sprintf("https://grafana.com/docs/grafana/latest/setup-grafana/configure-security/configure-authentication/%s", strings.ReplaceAll(provider, "_", "-")),
+			Url:     fmt.Sprintf("https://grafana.com/docs/grafana/latest/setup-grafana/configure-access/configure-authentication/%s", strings.ReplaceAll(provider, "_", "-")),
 			Message: "Check the documentation",
 		},
 		{

@@ -254,7 +254,7 @@ func TestListFormatValidation_Run(t *testing.T) {
 func generateExpectedLinks(provider string) []advisor.CheckErrorLink {
 	return []advisor.CheckErrorLink{
 		{
-			Url:     fmt.Sprintf("https://grafana.com/docs/grafana/latest/setup-grafana/configure-security/configure-authentication/%s", strings.ReplaceAll(provider, "_", "-")),
+			Url:     fmt.Sprintf("https://grafana.com/docs/grafana/latest/setup-grafana/configure-access/configure-authentication/%s", strings.ReplaceAll(provider, "_", "-")),
 			Message: "Check the documentation",
 		},
 		{
